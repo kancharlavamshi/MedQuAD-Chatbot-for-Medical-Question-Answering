@@ -128,7 +128,7 @@ Once you run the command, the chatbot interface will be available in your web br
 - **processed_data.json**: The preprocessed version of the **MedQuAD** dataset.
 
 
-### Youtube video[youtube](https://youtu.be/LS6z550nfL4?feature=shared)
+### [YouTube](https://youtu.be/LS6z550nfL4?feature=shared)
 
 
 
