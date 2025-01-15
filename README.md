@@ -105,15 +105,12 @@ This script will generate a response based on the trained model's understanding 
 ### 4. **Start the Chatbot (Streamlit Interface)**
 <details>
 <summary>Chatbot Interface</summary>
-
 Once the model is trained, you can interact with the chatbot through a web-based interface. The chatbot is deployed using **Streamlit**, providing a simple and intuitive user interface to ask medical questions.
-
 To start the chatbot:
 
 streamlit run app.py
 
 Once you run the command, the chatbot interface will be available in your web browser. You can ask various medical-related questions, and the chatbot will provide answers based on its training.
-
 </details>
 
 ## **File Descriptions**
