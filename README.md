@@ -47,7 +47,7 @@ Follow these steps to run the MedQuAD Chatbot locally or in your development env
    git clone https://github.com/kancharlavamshi/MedQuAD-Chatbot-for-Medical-Question-Answering.git
    cd MedQuAD-Chatbot-for-Medical-Question-Answering
    pip install -r requirements.txt  # install
-
+   ```
 ## How to Run the Code
 
 ### 1. **Preprocessing Data**
@@ -57,9 +57,9 @@ Follow these steps to run the MedQuAD Chatbot locally or in your development env
 The **preprocessing.py** script processes the raw MedQuAD dataset by removing duplicates and irrelevant entries. It saves the preprocessed dataset in a JSON file format, ready to be used for training.
 
 To run the preprocessing script, use the following command:
-
+```b
 python preprocessing.py --input_data /path/to/medquad.csv --output_data processed_data.json
-
+```
 - `--input_data`: Path to the raw **MedQuAD** CSV dataset.
 - `--output_data`: Path to save the preprocessed dataset in **JSON** format.
 
@@ -73,9 +73,9 @@ This script removes duplicates and prepares the dataset for model training.
 The **train_model.py** script fine-tunes the **DialoGPT** model on the processed MedQuAD dataset. The training script is configurable through command-line arguments, allowing you to modify hyperparameters such as epochs, batch size, and learning rate.
 
 To start training, run the following command:
-
+```
 python train_model.py --epochs 30 --batch_size 8 --learning_rate 5e-5 --save_model True --save_path ./models/medquad_model --validation_size 0.1
-
+```
 - `--epochs`: Number of training epochs.
 - `--batch_size`: The batch size used for training.
 - `--learning_rate`: Learning rate for the optimizer.
@@ -93,9 +93,9 @@ This will start the training process using **Causal Language Modeling** and save
 Once the model is trained, the **inference.py** script allows you to interact with the trained model and generate responses to user inputs. The script loads the model and tokenizer, processes the user input, and returns a response based on the trained model.
 
 Run the following command to interact with the trained model:
-
+```
 python inference.py --model_path /path/to/medquad_model --user_input "What are the symptoms of Glaucoma?"
-
+```
 - `--model_path`: Path to the trained **DialoGPT** model.
 - `--user_input`: The medical question you want the chatbot to respond to.
 
@@ -107,9 +107,9 @@ This script will generate a response based on the trained model's understanding 
 <summary>Chatbot Interface</summary>
 Once the model is trained, you can interact with the chatbot through a web-based interface. The chatbot is deployed using **Streamlit**, providing a simple and intuitive user interface to ask medical questions.
 To start the chatbot:
-
+```
 streamlit run app.py
-
+```
 Once you run the command, the chatbot interface will be available in your web browser. You can ask various medical-related questions, and the chatbot will provide answers based on its training.
 </details>
 
