@@ -1,5 +1,7 @@
 # **MedQuAD Chatbot for Medical Question Answering**
 
+![streamlit_app](https://github.com/user-attachments/assets/35d26d46-089d-4662-bf48-07a0f0340ef2)
+
 ## **Project Overview**
 The **MedQuAD Chatbot** project is a sophisticated **AI-driven conversational agent** designed to provide **accurate and relevant answers** to medical-related questions. This chatbot is trained using the **MedQuAD (Medical Question Answering Dataset)**, a comprehensive collection of real-world question-answer pairs sourced from reliable **National Institutes of Health (NIH)** websites. The goal of this project is to build a model capable of assisting users with health-related queries, ensuring they receive information that is both accurate and easy to understand.
 
@@ -40,7 +42,7 @@ This project uses advanced **Natural Language Processing (NLP)** and **Machine L
 
 Follow these steps to run the MedQuAD Chatbot locally or in your development environment:
 
-### 1. **Clone the Repository**
+###  **Clone the Repository**
    To get started, first clone the repository to your local machine:
    
    ```bash
@@ -54,7 +56,7 @@ Follow these steps to run the MedQuAD Chatbot locally or in your development env
 <details>
 <summary>Preprocess</summary>
 
-The **preprocessing.py** script processes the raw MedQuAD dataset by removing duplicates and irrelevant entries. It saves the preprocessed dataset in a JSON file format, ready to be used for training.
+The **preprocess.py** script processes the raw MedQuAD dataset by removing duplicates and irrelevant entries. It saves the preprocessed dataset in a JSON file format, ready to be used for training.
 
 To run the preprocessing script, use the following command:
 ```b
@@ -94,7 +96,7 @@ Once the model is trained, the **inference.py** script allows you to interact wi
 
 Run the following command to interact with the trained model:
 ```
-python inference.py --model_path /path/to/medquad_model --user_input "What are the symptoms of Glaucoma?"
+python chatbot_inference.py --model_path /path/to/medquad_model --user_input "What are the symptoms of Glaucoma?"
 ```
 - `--model_path`: Path to the trained **DialoGPT** model.
 - `--user_input`: The medical question you want the chatbot to respond to.
@@ -107,9 +109,11 @@ This script will generate a response based on the trained model's understanding 
 <summary>Chatbot Interface</summary>
 Once the model is trained, you can interact with the chatbot through a web-based interface. The chatbot is deployed using **Streamlit**, providing a simple and intuitive user interface to ask medical questions.
 To start the chatbot:
+  
 ```
-streamlit run app.py
+streamlit run chatbot_streamlit.py
 ```
+
 Once you run the command, the chatbot interface will be available in your web browser. You can ask various medical-related questions, and the chatbot will provide answers based on its training.
 </details>
 
