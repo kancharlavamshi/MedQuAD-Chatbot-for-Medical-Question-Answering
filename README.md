@@ -60,7 +60,7 @@ The **preprocess.py** script processes the raw MedQuAD dataset by removing dupli
 
 To run the preprocessing script, use the following command:
 ```b
-python preprocessing.py --input_data /path/to/medquad.csv --output_data processed_data.json
+python preprocess.py --input_data /path/to/medquad.csv --output_data processed_data.json
 ```
 - `--input_data`: Path to the raw **MedQuAD** CSV dataset.
 - `--output_data`: Path to save the preprocessed dataset in **JSON** format.
@@ -127,7 +127,15 @@ Once you run the command, the chatbot interface will be available in your web br
 - **medquad.csv**: The original raw **MedQuAD** dataset.
 - **processed_data.json**: The preprocessed version of the **MedQuAD** dataset.
 
+
+### Youtube video[youtube](https://youtu.be/LS6z550nfL4?feature=shared)
+
+
+
 ### About Me
 Hello, I’m Vamshi! I’m passionate about technology, machine learning, and innovation. I enjoy solving complex problems through programming and data-driven solutions.
 
 r custom projects or freelance work, feel free to reach out to me on [Upwork]([https://www.upwork.com](https://www.upwork.com/freelancers/vamshikrishnak?mp_source=share)) or [Fiverr](https://www.fiverr.com/vamshikrishn486?source=post_page-----a5674be25df2). Let’s work together to bring your ideas to life!
+
+
+
