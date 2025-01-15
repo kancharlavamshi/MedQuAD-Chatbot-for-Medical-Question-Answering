@@ -135,7 +135,7 @@ Once you run the command, the chatbot interface will be available in your web br
 ### About Me
 Hello, I’m Vamshi! I’m passionate about technology, machine learning, and innovation. I enjoy solving complex problems through programming and data-driven solutions.
 
-For custom projects or freelance work, feel free to reach out to me on [Upwork](https://www.upwork.com](https://www.upwork.com/freelancers/vamshikrishnak?mp_source=share) or [Fiverr](https://www.fiverr.com/vamshikrishn486?source=post_page-----a5674be25df2). Let’s work together to bring your ideas to life!
+For custom projects or freelance work, feel free to reach out to me on [Upwork](https://www.upwork.com/freelancers/vamshikrishnak?mp_source=share) or [Fiverr](https://www.fiverr.com/vamshikrishn486?source=post_page-----a5674be25df2). Let’s work together to bring your ideas to life!
 
 
 
